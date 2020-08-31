@@ -93,6 +93,19 @@ h2{font-size: var(--fs-h2);}
 h3{font-size: var(--fs-h3);}
 h4{font-size: var(--fs-h4);}
 
+
+/* Layout */
+.section__container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.section__title{
+    margin-bottom: 2rem;
+}
 /* ---- Header Styles ----*/
 /* ---- Section Styles ----*/
+/* Hero */
+.section__title--hero{
+    color: var(--clr-accent);
+}
 /* ---- Footer Styles ----*/
