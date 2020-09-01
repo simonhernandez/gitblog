@@ -67,7 +67,6 @@ body{
 
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
-    height: 200vh;
 }
 img{
     display: block;
@@ -118,6 +117,9 @@ h4{font-size: var(--fs-h4);}
     width: 100%;
     padding: 0 3rem;
 }
+.header .logo__link{
+    color: var(--clr-accent);
+}
 .menu{
     height: var(--header-height);
     display: flex;
@@ -128,7 +130,7 @@ h4{font-size: var(--fs-h4);}
     display: inline-block;
 }
 .menu__item:not(:last-child){
-    margin-right: 2rem;
+    margin-right: 4rem;
 }
 /* ---- Section Styles ----*/
 /* Hero */
