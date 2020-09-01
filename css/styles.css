@@ -67,6 +67,7 @@ body{
 
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
+    height: 200vh;
 }
 img{
     display: block;
@@ -93,16 +94,42 @@ h2{font-size: var(--fs-h2);}
 h3{font-size: var(--fs-h3);}
 h4{font-size: var(--fs-h4);}
 
+.menu .logo__link{
+    font-weight: var(--fw-bold);
+}
 
 /* Layout */
 .section__container{
     max-width: 1024px;
     margin: 0 auto;
+    margin-top: calc(var(--header-height) + 1rem);
 }
 .section__title{
     margin-bottom: 2rem;
 }
 /* ---- Header Styles ----*/
+.header{
+    background-color: var(--clr-light);
+    box-shadow: var(--bxs-header);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 3rem;
+}
+.menu{
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu__item{
+    display: inline-block;
+}
+.menu__item:not(:last-child){
+    margin-right: 2rem;
+}
 /* ---- Section Styles ----*/
 /* Hero */
 .section__title--hero{
